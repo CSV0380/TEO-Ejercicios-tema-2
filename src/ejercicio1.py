@@ -17,9 +17,10 @@ def lee_variaciones_temperatura(ruta_csv):
     return variaciones
 
 # Prueba de la función
-ruta = "TEO-Ejercicios-tema-2\data\monthly_csv.csv"
+if __name__ == "__main__":
+    ruta = "TEO-Ejercicios-tema-2\data\monthly_csv.csv"
 
-datos_temperatura = lee_variaciones_temperatura(ruta)
+    datos_temperatura = lee_variaciones_temperatura(ruta)
 
-# Mostrar las 5 primeras tuplas
-print(datos_temperatura[:5])
+    # Mostrar las 5 primeras tuplas
+    print(datos_temperatura[:5])

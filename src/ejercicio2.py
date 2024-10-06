@@ -18,6 +18,7 @@ def muestra_variaciones_temperatura(ruta_csv):
     plt.show()
 
 # Prueba de la función
-ruta = 'TEO-Ejercicios-tema-2\data\monthly_csv.csv'
-muestra_variaciones_temperatura(ruta)
+if __name__ == "__main__":
+    ruta = 'TEO-Ejercicios-tema-2\data\monthly_csv.csv'
+    muestra_variaciones_temperatura(ruta)
 
